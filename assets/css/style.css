@@ -1,0 +1,270 @@
+/* Reset default styles for all elements */
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set background color for the body */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Style header section */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Style the logo and navigation */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Style the "seo" span next to the logo */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Style the navigation links */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Style the list of navigation links */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* Style each navigation link item */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Style the content area */
+.content {
+    width: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Style links within the content area */
+.content a {
+    color: #ffffff;
+    text-decoration: none;
+}*
+
+/* Style the main heading of each section */
+.content h2 {
+    flex: auto;
+    font-size: 36px;
+    margin-bottom: 20px;
+}*
+
+/* Style the images within each section */
+.content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    height: auto;
+}
+
+/* Style the paragraphs within each section */
+.content p {
+    font-size: 16px;
+    /*line-height: 1.5;
+    margin-bottom: 20px;*/
+}
+
+.hero {
+    flex: auto;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+} 
+
+/* Style the benefits section */
+.benefits {
+    display: inline-block;
+    /*flex-wrap: wrap;
+    margin: 0 25;*/
+    width: 50%;
+    /*max-width: 960px;
+    padding: 50px 0;*/
+    vertical-align: top;
+}
+
+/* Style each benefit item */
+.benefits .benefit-item {
+     flex: 1;
+     text-align: center;
+     margin-bottom: 30px;
+}
+
+    /* Style the benefit icons */
+    .benefits img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    /* Style the benefit headings */
+    .benefits h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    /* Style the benefit descriptions */
+    .benefits p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+
+
+.benefits {
+    flex: wrap;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}*
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}*
+
+/* Style, Size, and font propeties of paragraph containers */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Image sizing to fit marigin properties */
+
+.search-engine-optimization img, 
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}*
+
+/* Style the footer section */
+.footer {
+    background-color: #2a607c;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+    /* Style the heart icon in the footer */
+    .footer i {
+        color: red;
+    }
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Stack the navigation links on top of each other */
+    .header nav {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+        /* Remove margin between navigation items */
+        .header nav ul li {
+            margin: 0;
+        }
+}
+
+
+
+
+
+
+
