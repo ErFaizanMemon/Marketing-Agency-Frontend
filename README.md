@@ -29,7 +29,7 @@ THEN I find a concise, descriptive title
 
 ## Deployment
 
-Github URL: 
+Github URL: https://github.com/ErFaizanMemon/Marketing-Agency-Frontend
 
-Webpage Deployment URL:
+Webpage Deployment URL: https://erfaizanmemon.github.io/Marketing-Agency-Frontend/
 
